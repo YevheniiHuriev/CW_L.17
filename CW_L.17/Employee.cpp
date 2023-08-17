@@ -12,7 +12,6 @@ Employee::Employee(string name, string position, float salary)
 	this->name = name;
 	this->position = position;
 	this->salary = salary;
-
 }
 
 void Employee::show() const

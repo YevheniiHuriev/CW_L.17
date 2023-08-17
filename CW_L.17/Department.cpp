@@ -10,5 +10,6 @@ void Department::show() const
 	for (int i = 0; i < base.size(); i++)
 	{
 		base[i]->show();
+		cout << endl;
 	}
 }
